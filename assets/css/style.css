@@ -124,6 +124,35 @@
       opacity: 0;
   }
   
+  body{
+    background-image: url("/assets/images/background-black.jpg");
+  }
+ 
+  .home-container{
+    height: 100vh;
+    background-color: #1818186f;
+    opacity: 10;
+    display: flex;
+    justify-content: center;
+
+  }
+
+.container-header{
+  height: 100%;
+  width: 100%;
+  padding-top: 10%;
+  text-align: center;
+  
+}
+
+
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+}
+
+
   main {
     flex-grow: 1;
     position: relative;
