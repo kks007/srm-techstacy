@@ -1,5 +1,5 @@
 :root {
-    --background-color: rgb(24, 24, 24);
+    --background-color: hsl(0, 0%, 9%);
     --border-color: #181818;
     --highlight-color: rgb(126, 87, 194);
     --yt-color: rgb(229, 57, 53);
@@ -332,8 +332,13 @@
     }
     
     #nav-logo-section > a > i {
-      font-size: 1.5rem;
+      font-size: 1rem;
       margin-left: 1rem;
+      width: 5vw;
+    }
+
+    img{
+      width: fit-content;
     }
     
     #nav-mobile-section {
@@ -395,15 +400,4 @@
     }
   }
   
-  /* -- YT link / Source link styles -- */
   
-  main > article > .article-description-section > p  > .source-link {
-    color: var(--highlight-color);
-    display: inline;
-  }
-  
-  main > article .yt-link,
-  main > article .yt-link > i {
-    color: var(--yt-color);
-    display: inline;
-  }
