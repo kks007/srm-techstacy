@@ -1,6 +1,6 @@
 :root {
-    --background-color: rgb(6, 11, 25);
-    --border-color: rgb(255, 255, 255, 0.1);
+    --background-color: rgb(24, 24, 24);
+    --border-color: #181818;
     --highlight-color: rgb(126, 87, 194);
     --yt-color: rgb(229, 57, 53);
   }
@@ -36,6 +36,7 @@
   nav {
     display: flex;
     width: 100%;
+    height: 15vh;
     border-bottom: 1px solid var(--border-color);
   }
   
@@ -164,8 +165,10 @@
   main > article > .article-title-section,
   main > article > .article-nav-section {
     border-top: 1px solid var(--border-color);
+    height: 15vh;
   }
-  
+
+   
   main > article:first-child > .article-image-section {
     background-image: url("https://images.unsplash.com/photo-1565626424178-c699f6601afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80");
   }
@@ -188,6 +191,7 @@
   main > article > .article-image-section {
     background-position: center;
     background-size: cover;
+    height: 70vh;
   }
   
   main > article > .article-description-section {
